@@ -235,6 +235,22 @@ section .title span::after{
 .about .about-details .right{
   width:55%;
 }
+.about .btn {
+  background:var(--primary-color);
+  padding: 10px 12px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #fff;
+  display: inline-block;
+  margin: auto;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.about .btn a:hover {
+  color: gray;
+  transform: translate(2px); }
+
 section .topic{
   color:var(--black-color);
   font-size:25px;
